@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo hover</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+          #   = id
+          .   = class
+          :   = pseudo-class
+          ::  = pseudo-element
+          >   = clildren [filho]
+          */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: antiquewhite;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            color: red;
+            background-color: yellow;
+            width: 150px;
+        }
+        div:hover{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo hover</h1>
+    <p>Passem o mouse a baixo</p>
+    <div>
+        passe o mouse aqui
+        <p>texto escondido...</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens que se adptam</title>
+</head>
+<body>
+    <h1>Imagem dinamicas</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou diminua o seu navagador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)"
+        srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>
+        audio site
+    </h1>
+    <p>vamos reporduzir um audio em html5</p>
+    <audio src="midia/hungriahiphop-beijo-com-trap-wwwpalcomp3comdjmixer-djmixeroficial-2116517c (1).mp3" controls loop></audio><!-- sempre colocar o controls e eutoplay para funcionar-->
+    <!-- existe esse arquivos mp3 wav ogg a baixo esta como colocar eles-->
+    <audio>
+        <source src="midia/hungriahiphop-beijo-com-trap-wwwpalcomp3comdjmixer-djmixeroficial-2116517c (1).mp3" type="audio/mpeg">
+        <source src="midia/hungriahiphop-beijo-com-trap-wwwpalcomp3comdjmixer-djmixeroficial-2116517c (1).ogg" type="audio/ogg">
+        <source src="midia/hungriahiphop-beijo-com-trap-wwwpalcomp3comdjmixer-djmixeroficial-2116517c (1).wav" type="audio/wav">
+    </audio>
+
+    <h1>vamos colocar videos da melhor forma para nao pegar gb do site usando o youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RQzSHIZL1s0?si=QXv505goRdMd9Hz0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>]
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gILB1sFYzAA?si=eHqkshksaWMHEy4H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+</body>
+</html>

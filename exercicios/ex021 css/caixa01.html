@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            background-color: aquamarine;
+            height: 300px;
+            width: 300px;
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkblue;
+            /* Para abrevirar a border e na sequencia a cima*/
+            border: 10px solid darkblue;
+
+            padding-top: 40px;
+            padding-right: 45px;
+            padding-bottom: 50px;
+            padding-left: 55px;
+            /* Para abriviar o padding e em sentido horario, na sequencia a cima*/
+            padding: 40px 45px 40px 45px; 
+            /* se todos os lados forem iguais basta colocar so uma vez tipo; padding: 10px ou se tiver o de cima e de baixo igual e o da direita e esquerda igual pode ser padding: 10px 20px no exemplo e top e bottom 10 e right e left 20*/
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            margin: 10px;
+            /* Margin e igual o padding, se quiser centralizar a box e so usar a margin: center essa comando centraliza a box na horizontal*/
+
+            outline-width: 10px;
+            outline-style: solid;
+            outline-color: blue;
+            /* Para abrevirar o outline e na sequencia a cima*/
+            outline: 10px solid blue;
+
+    
+        }
+        a{
+            border-width: 1px;
+            border-style: solid;
+            border-color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixas Box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">Links são exempos de caixas inline-level</a>.Vamos ver como tudo isso funciona.
+    </p>
+</body>
+</html>
